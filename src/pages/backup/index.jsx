@@ -6,12 +6,12 @@ export default ({ data }) => {
   const menu = data.allWpMenuItem.edges
   return (
     <div>
-      {menu.map(({ node }) => (
+      {/* {menu.map(({ node }) => (
         <Link to={node.url}>
           <li>{node.label}</li>
         </Link>
       ))}
-      <h1>Hello</h1>
+      <h1>Hello</h1> */}
     </div>
   )
 }

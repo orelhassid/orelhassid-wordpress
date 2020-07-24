@@ -2,7 +2,7 @@ import React from "react"
 import { Heading, Box, Grid } from "@chakra-ui/core"
 import { Link } from "gatsby"
 import GatsbyLogo from "../assets/svg/gatsby.inline.svg"
-import Menu from "./menu.jsx"
+import Menu from "./menu"
 
 export default () => {
   return (
